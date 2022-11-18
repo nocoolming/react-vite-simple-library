@@ -60,7 +60,7 @@
     "react-dom": "16.8.0 || >=17.x"
   },
   "keywords": [],
-  "author": "bigyan poudel",
+  "author": "Mingming Li",
   "license": "MIT",
   "publishConfig": {
     "registry": "http://192.168.8.121:8081/repository/npm-hosted/"
