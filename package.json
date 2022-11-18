@@ -9,13 +9,7 @@
     "preview": "vite preview",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "lint:fix": "eslint --fix 'src/**/*.{jsx,ts,tsx}'",
-    "format": "prettier --write src//**/*.{ts,tsx,css} --config ./.prettierrc",
-    "prepare": "husky install"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "format": "prettier --write src//**/*.{ts,tsx,css} --config ./.prettierrc"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [
@@ -51,7 +45,6 @@
     "eslint-plugin-react": "^7.30.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
-    "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "react": "^18.2.0",
@@ -66,16 +59,8 @@
     "react": "16.8.0 || >=17.x",
     "react-dom": "16.8.0 || >=17.x"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/bigyanpoudel/react-vite-simple-library"
-  },
   "keywords": [],
   "author": "bigyan poudel",
-  "bugs": {
-    "url": "https://github.com/bigyanpoudel/react-vite-simple-library/issues"
-  },
-  "homepage": "https://github.com/bigyanpoudel/react-vite-simple-library#readme",
   "license": "MIT",
   "publishConfig": {
     "registry": "http://192.168.8.121:8081/repository/npm-hosted/"
